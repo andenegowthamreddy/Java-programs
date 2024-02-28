@@ -1,0 +1,15 @@
+public class First100OddNumbers {
+    public static void main(String[] args) {
+        int count = 0;  // Counter to keep track of the number of odd numbers printed
+        int number = 1; // Starting from the first odd number
+
+        System.out.println("The first 100 odd numbers are:");
+
+        // Loop to print the first 100 odd numbers
+        while (count < 100) {
+            System.out.println(number);
+            number += 2; // Move to the next odd number
+            count++;
+        }
+    }
+}
